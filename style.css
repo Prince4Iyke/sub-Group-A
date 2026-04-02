@@ -12,10 +12,15 @@ nav {
   padding: 20px 50px;
   border-bottom: 1px solid #e0e0e0;
 }
+
+/* added cursor pointer */
 .logo {
   font-size: 24px;
   font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
 }
+
 .nav-links {
   display: flex;
   gap: 20px;
@@ -39,18 +44,39 @@ nav {
   border-radius: 20px;
   cursor: pointer;
 }
+
+.btn_a {
+  padding: 15px 45px;
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* added Hover effect */
+.btn_a:hover{
+    background-color: black ; 
+    border-color: #555;        
+}
+
+/* added border line top and bottom & increased padding*/
 .hero{
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 30px;
     background-color: #f2f2f2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .hero h1{
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 20px;
 }
 .hero p{
     font-size: 20px;
     margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .features{
     text-align: center;
